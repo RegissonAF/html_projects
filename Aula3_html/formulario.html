@@ -6,7 +6,7 @@
     <title>Example Form</title>
   </head>
   <body>
-    <form action="cadastro.html" method="post">
+    <form action="https://65e12911d3db23f7624a7852.mockapi.io/usuario" method="post">
       <fieldset>
         <legend>Cadastro de Pessoa</legend>
         <div>
@@ -18,6 +18,62 @@
           <input id="cpf" name="cpf" />
         </div>
         <div>
+          <div>
+            <label>Gosto Musical</label>
+            <label
+              ><input
+                type="checkbox"
+                name="gostomusical"
+                value="rock"
+              />Rock</label
+            >
+            <label
+              ><input
+                type="checkbox"
+                name="gostomusical"
+                value="rock"
+              />Pagode</label
+            >
+            <label
+              ><input
+                type="checkbox"
+                name="gostomusical"
+                value="rock"
+              />Pop</label
+            >
+            <div>
+              <label>Sexo</label>
+              <label
+                ><input
+                  type="radio"
+                  name="sexo"
+                  value="masculino"
+                />Masculino</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="sexo"
+                  value="feminino"
+                />Feminino</label
+              >
+            </div>
+            <div>
+              <label for="documento">Upload do Documento</label>
+              <input id="documnto" type="file" name="documento" />
+            </div>
+            <div>
+              <label for="cidade">Cidade</label>
+              <select id="cidade" name="cidade">
+                <option value="1">São Paulo</option>
+                <option value="2">Rio de Janeiro</option>
+                <option value="3">Belo Horizonte</option>
+              </select>
+            </div>
+            <div>
+            
+            </div>
+          </div>
           <button type="submit">Salvar</button>
           <button type="reset">Limpar</button>
         </div>
