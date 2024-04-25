@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    align-content: center;
+}
+.box {
+    flex-flow: column;
+    padding: 10px;
+    border: 1px solid black;
+}

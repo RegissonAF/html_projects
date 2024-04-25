@@ -1,0 +1,14 @@
+.box{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: aliceblue;
+    border: 1px solid grey;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+}
+.Item{
+    border: 1px solid black;
+    background-color: aqua;
+}

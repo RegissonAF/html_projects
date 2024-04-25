@@ -1,3 +1,4 @@
 {
-    "editor.fontFamily": "'Fira Code'"
+    "editor.fontFamily": "'Fira Code'",
+    "livePreview.defaultPreviewPath": "/Tarefa 5/T5.1/index.html"
 }
